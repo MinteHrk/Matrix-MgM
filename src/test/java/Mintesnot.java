@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class Mintesnot {
    WebDriver driver;
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
